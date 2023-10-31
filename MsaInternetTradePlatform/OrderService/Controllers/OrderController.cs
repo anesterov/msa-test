@@ -5,7 +5,6 @@ using OrderService.Services;
 namespace OrderService.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
     public class OrderController : ControllerBase
     {
         private readonly ILogger<OrderController> _logger;

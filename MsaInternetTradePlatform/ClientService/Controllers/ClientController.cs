@@ -5,7 +5,6 @@ using Microsoft.AspNetCore.Mvc;
 namespace ClientService.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
     public class ClientController : ControllerBase
     {
         private readonly ILogger<ClientController> _logger;
